@@ -1,7 +1,6 @@
 require 'pry'
 require_relative '../Cli'
 require_relative '../../config/environment'
-#require_relative '../../runner.rb'
 
 class User < ActiveRecord::Base
     has_many :favorites

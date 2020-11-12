@@ -24,7 +24,7 @@ Joke.create name: "Neckromancer", content: "What do you call an evil wizard who 
 Joke.create name: "Glass Objects", content: "As a wizard, I enjoy turning objects into glass.\n\nJust wanted to make that clear.", category: "Wizard"
 Joke.create name: "Dog Wizard", content: "What is a dog wizard called?\n\nLabracadabrador.", category: "Wizard"
 Joke.create name: "Drunk Wizard", content: "What do you call a drunk wizard?\n\nStumbledore.", category: "Wizard"
-Joke.create name: "Crabs", content: "Why don’t crabs give to charity?\n\nBecause they’re shellfish", category: "Dad"
+Joke.create name: "Crabs", content: "Why don’t crabs give to charity?\n\nBecause they’re shellfish.", category: "Dad"
 Joke.create name: "Diet Sodas", content: "I got hit in the head with a can of Diet Coke today. Don’t worry, I’m not hurt.\n\nIt was a soft drink.", category: "Dad"
 Joke.create name: "Jacket", content: "How do you steal a coat?\n\nYou jacket.", category: "Dad"
 
