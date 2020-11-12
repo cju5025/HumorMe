@@ -64,7 +64,7 @@ class Cli
     end
 
     def main_menu
-        @menu_choice = tty_prompt.select "Hurry up and pick sumthin!" do |menu|
+        @menu_choice = tty_prompt.select "Select an option" do |menu|
             menu.choice :Jokes, "Jokes"
             menu.choice :Favorites, "Favorites"
             menu.choice :Add, "Add"
