@@ -20,8 +20,11 @@ HumorMe! is a CLI application that allows users to create a profile, generate ra
 * Tty-box
 
 ## Set Up 
- To run this project, install it locally by cloning the Github repository and typing:
+ To run this project, install it locally by cloning the Github repository. Open in your command line interface and type:
  ```ruby
+bundle install
+rake db:migrate
+rake db:seed
 ruby runner.rb
 ```
 
