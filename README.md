@@ -54,8 +54,8 @@ ruby runner.rb
 * Create new jokes for other users to enjoy!
 
 To_do: 
-* create intro video
-* create delete favorites function
+* Create intro video
+* Create delete favorites function
 
 ## Status
 Project status : project requirements reached with options to expand functionality.
@@ -64,9 +64,10 @@ Project status : project requirements reached with options to expand functionali
 The inspiration for HumorMe! comes from our love to make others laugh and also to instigate more of the same from others using clean code.
 ## Contact
 ```ruby
+Created by Colter Ulrich and Christopher Henderson
+
 chenderson5280@gmail.com
 cju5025@gmail.com
-Created by Colter Ulrich and Christopher Henderson
 ```
 
 ## License 
