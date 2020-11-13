@@ -5,7 +5,7 @@ A wonderful world of laughter connecting one sense of humor to another
 
 HumorMe! is a CLI application that allows users to create a profile, generate random jokes based on age and category, create a favorites list, and also create new jokes for other users to see! 
 
-### Intro Video (currently unavailabe)
+### Intro Video (currently unavailable)
 ^^^^^^^^
 
 ## Technologies
@@ -33,19 +33,18 @@ ruby runner.rb
     end
 ```
 ```ruby
-def add_joke_prompt
-        puts "Please name your joke:"
-        @name = gets.chomp
-        puts "Enter your joke"
-        @joke = gets.chomp
-        @category = tty_prompt.select "Please choose a category:" do |menu|
-            menu.choice :Naughty, "Naughty"
-            menu.choice :Dad, "Dad"
-            menu.choice :Knock_Knock, "Knock_Knock"
-            menu.choice :Math, "Math"
-            menu.choice :Wizard, "Wizard"
+    def main_menu_choice
+        case @menu_choice
+        when "Jokes"
+            select_joke_type
+        when "Favorites"
+            user.display_favorite_jokes
+            main_menu_option
+        when "Add"
+            add_joke_prompt
+        when "Exit"
+            exit_app
         end
-        create_new_joke
     end
 ```
 ## Features
@@ -63,11 +62,12 @@ Project status : project requirements reached with options to expand functionali
 
 ## Inspiration 
 The inspiration for HumorMe! comes from our love to make others laugh and also to instigate more of the same from others using clean code.
-## Conatact
+## Contact
 ```ruby
-Craeted by Colter Ulrich and Christopher Henderson
+chenderson5280@gmail.com
+cju5025@gmail.com
+Created by Colter Ulrich and Christopher Henderson
 ```
-[Slack us @ Illicit Syntax :) ](https://flatironschool.zoom.us/j/98415124678?pwd=Ympwcy9oTDljUDlOakk1Mm1LL0YyZz09)
 
 ## License 
 [Click to view](https://github.com/cju5025/HumorMe)
