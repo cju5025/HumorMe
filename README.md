@@ -5,10 +5,10 @@ A wonderful world of laughter connecting one sense of humor to another
 
 HumorMe! is a CLI application that allows users to create a profile, generate random jokes based on age and category, create a favorites list, and also create new jokes for other users to see! 
 
-### Intro Video (currently unavailable)
+### Demo Video
 
-https://youtu.be/0ErO2KhiPLM
-^^^^^^^^
+[Click to view](https://youtu.be/0ErO2KhiPLM)
+
 
 ## Technologies
 
@@ -59,7 +59,6 @@ ruby runner.rb
 * Create new jokes for other users to enjoy!
 
 To_do: 
-* Create intro video
 * Create delete favorites function
 
 ## Status
@@ -74,7 +73,4 @@ Created by Colter Ulrich and Christopher Henderson
 chenderson5280@gmail.com
 cju5025@gmail.com
 ```
-
-## License 
-[Click to view](https://github.com/cju5025/HumorMe)
 
