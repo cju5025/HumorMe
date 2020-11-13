@@ -16,8 +16,8 @@ HumorMe! is a CLI application that allows users to create a profile, generate ra
 * Sinatra - version 2.0
 * Sinatra-activerecord - version 2.0
 * SQLite3 - version 1.4
-* tty-prompt  
-* tty-box
+* Tty-prompt  
+* Tty-box
 
 ## Set Up 
  To run this project, install it locally by cloning the Github repository and typing:
@@ -27,18 +27,9 @@ ruby runner.rb
 
 ## Code Examples
 ```ruby
-def sign_in
-        user_input = tty_prompt.ask "Please enter your username..."
-        found_user = User.find_by(name: user_input)
-        if found_user
-            self.user = found_user
-            puts "====================="
-            puts "Welcome back #{user.name}!"
-            puts "====================="
-        else
-            puts "Username does not exist. Let's try this again..."
-            have_you_been_here
-        end
+    def have_you_been_here 
+        user_input = tty_prompt.yes? "Welcome to HumorMe! Been here before?"
+            user_input ? sign_in : sign_up
     end
 ```
 ```ruby
@@ -58,9 +49,9 @@ def add_joke_prompt
     end
 ```
 ## Features
-* Create Users with age specifications
+* Create users with age specifications
 * Generate random jokes based on category (and age)
-* Add any generated joke to a User's Favorites list.
+* Add any generated joke to a user's Favorites list
 * Create new jokes for other users to enjoy!
 
 To_do: 
@@ -70,7 +61,7 @@ To_do:
 ## Status
 Project status : project requirements reached with options to expand functionality.
 
-## Insperation 
+## Inspiration 
 The inspiration for HumorMe! comes from our love to make others laugh and also to instigate more of the same from others using clean code.
 ## Conatact
 ```ruby
