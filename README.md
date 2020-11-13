@@ -6,6 +6,8 @@ A wonderful world of laughter connecting one sense of humor to another
 HumorMe! is a CLI application that allows users to create a profile, generate random jokes based on age and category, create a favorites list, and also create new jokes for other users to see! 
 
 ### Intro Video (currently unavailable)
+
+https://youtu.be/0ErO2KhiPLM
 ^^^^^^^^
 
 ## Technologies
@@ -14,7 +16,7 @@ HumorMe! is a CLI application that allows users to create a profile, generate ra
 * ActiveRecord - version 6.0
 * Rake - 13.0
 * Sinatra - version 2.0
-* Sinatra-activerecord - version 2.0
+* Sinatra - activerecord - version 2.0
 * SQLite3 - version 1.4
 * Tty-prompt  
 * Tty-box
